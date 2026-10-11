@@ -1,5 +1,7 @@
 # Twin-SparSight: Balancing Global Context and Native Detail for Lightweight Sparse Defect Inspection
 
+[![tests](https://github.com/JunHan-K/Twin-SparSight/actions/workflows/tests.yml/badge.svg)](https://github.com/JunHan-K/Twin-SparSight/actions/workflows/tests.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Code for the paper submitted to IEEE ICCE 2027 (release `v1.0-icce2027` = the submitted version).
 
 Defects on consumer-electronics parts often cover a few pixels of a multi-megapixel image. A lightweight

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Twin-SparSight: Balancing Global Context and Native Detail for Lightweight Sparse Defect Inspection"
+authors:
+  - family-names: Kim
+    given-names: Junhan
+    affiliation: Kyungpook National University
+repository-code: "https://github.com/JunHan-K/Twin-SparSight"
+license: MIT
+version: v1.0-icce2027
+preferred-citation:
+  type: conference-paper
+  title: "Twin-SparSight: Balancing Global Context and Native Detail for Lightweight Sparse Defect Inspection"
+  authors:
+    - family-names: Kim
+      given-names: Junhan
+  collection-title: "Proc. IEEE International Conference on Consumer Electronics (ICCE)"
+  year: 2027
+  notes: "under review"
