@@ -68,7 +68,7 @@ competitors, standard deviations, ablation) are produced by `tools/paper_tables.
 Latency: one A100, batch 1, end to end from the decoded image to the full-resolution map (resizing included), mean
 over 200 test images; GFLOPs count a multiply-add as 2. The precision mode costs 1.5x the FLOPs of SegFormer-B0
 but its latency is close to that of the larger models, because reading and handling the full-resolution image
-dominates it. On VISION the 22x larger SegFormer-B5 remains more accurate overall (AP, mIoU).
+dominates it. On VISION, SegFormer-B5 (22x more parameters) remains more accurate overall (AP, mIoU).
 
 ## Setup
 
