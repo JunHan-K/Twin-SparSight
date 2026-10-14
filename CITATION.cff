@@ -2,9 +2,39 @@ cff-version: 1.2.0
 message: "If you use this code, please cite the paper."
 title: "Twin-SparSight: Balancing Global Context and Native Detail for Lightweight Sparse Defect Inspection"
 authors:
+  - family-names: Jeong
+    given-names: Yului
+    affiliation: Seoul National University
+  - family-names: Park
+    given-names: Haram
+    affiliation: Seoul National University
+  - family-names: Kim
+    given-names: Youngseo
+    affiliation: Seoul National University
+  - family-names: Kim
+    given-names: Kyeonghun
+    affiliation: OUTTA
+  - family-names: Han
+    given-names: Youngung
+    affiliation: Seoul National University
+  - family-names: Seo
+    given-names: Yunjin
+    affiliation: Seoul National University
   - family-names: Kim
     given-names: Junhan
     affiliation: Kyungpook National University
+  - family-names: Yoo
+    given-names: Minjun
+    affiliation: Seoul National University
+  - family-names: Liao
+    given-names: Ken Ying-Kai
+    affiliation: NVIDIA
+  - family-names: Lee
+    given-names: Hyuk-Jae
+    affiliation: Seoul National University
+  - family-names: Kim
+    given-names: Nam-Joon
+    affiliation: Seoul National University
 repository-code: "https://github.com/JunHan-K/Twin-SparSight"
 license: MIT
 version: v1.0-icce2027
@@ -12,8 +42,28 @@ preferred-citation:
   type: conference-paper
   title: "Twin-SparSight: Balancing Global Context and Native Detail for Lightweight Sparse Defect Inspection"
   authors:
+    - family-names: Jeong
+      given-names: Yului
+    - family-names: Park
+      given-names: Haram
+    - family-names: Kim
+      given-names: Youngseo
+    - family-names: Kim
+      given-names: Kyeonghun
+    - family-names: Han
+      given-names: Youngung
+    - family-names: Seo
+      given-names: Yunjin
     - family-names: Kim
       given-names: Junhan
+    - family-names: Yoo
+      given-names: Minjun
+    - family-names: Liao
+      given-names: Ken Ying-Kai
+    - family-names: Lee
+      given-names: Hyuk-Jae
+    - family-names: Kim
+      given-names: Nam-Joon
   collection-title: "Proc. IEEE International Conference on Consumer Electronics (ICCE)"
   year: 2027
   notes: "under review"
