@@ -59,7 +59,7 @@ def main():
     ap.add_argument("--split", default="val")
     ap.add_argument("--out", default="outputs/paper/figures")
     a = ap.parse_args()
-    fig, ax = plt.subplots(figsize=(4.10, 1.56))  # printed beside the track-disagreement plot (no scaling)
+    fig, ax = plt.subplots(figsize=tuple(a.size))  # printed at this size (no scaling)
     for label, exp, mode, col, mk in POINTS:
         v = agg(exp, mode, a.metric, a.tol, a.split)
         g = gflops(exp, mode, a.split)
@@ -81,7 +81,8 @@ def main():
     ax.set_xlabel("GFLOPs per image (log)")
     ax.set_ylabel("small-defect AP" + (f"$^{{{a.tol}}}$" if a.tol else "") + " (%)")
     ax.grid(True, which="major", lw=0.3, color="#dddddd")
-    ax.set_title("(c) accuracy vs. compute", fontsize=7.4, pad=2)
+    if a.title:
+        ax.set_title(a.title, fontsize=7.4, pad=2)
     for sp in ("top", "right"):
         ax.spines[sp].set_visible(False)
     fig.tight_layout(pad=0.3)

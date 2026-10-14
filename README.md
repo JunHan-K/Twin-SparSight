@@ -118,8 +118,8 @@ bash scripts/reproduce.sh vision baselines      # Table I competitors (MVTec AD:
 bash scripts/reproduce.sh vision ablation       # Table III
 python tools/measure_modes.py                   # end-to-end latency of every method on one GPU
 python tools/paper_tables.py --split test       # tables -> outputs/paper/tables/
-python tools/analysis/track_disagreement.py --exp outputs/vision_ours --split test   # Fig. 3 (a, b)
-python tools/figures/fig3_tradeoff.py --split test                                     # Fig. 3 (c)
+python tools/analysis/track_disagreement.py --exp outputs/vision_ours --split test   # Fig. 3
+python tools/figures/fig3_tradeoff.py --split test                                     # Fig. 4
 python tools/figures/fig2_qualitative.py --mixed --split test --out outputs/paper/figures   # Fig. 2
 for s in train replay pick infer; do python tools/figures/fig1_data.py --step $s; done      # Fig. 1 data
 python tools/figures/fig1_framework.py                                                 # Fig. 1
