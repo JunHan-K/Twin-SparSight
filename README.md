@@ -182,10 +182,10 @@ use; MiT/SegFormer weights: NVIDIA Source Code License, non-commercial; MagNet: 
 ## Citation
 
 ```bibtex
-@inproceedings{jeong2027twinsparsight,
+@inproceedings{kim2027twinsparsight,
   title     = {{Twin-SparSight}: Balancing Global Context and Native Detail for Lightweight Sparse Defect Inspection},
-  author    = {Jeong, Yului and Park, Haram and Kim, Youngseo and Kim, Kyeonghun and Han, Youngung and Seo, Yunjin and
-               Kim, Junhan and Yoo, Minjun and Liao, Ken Ying-Kai and Lee, Hyuk-Jae and Kim, Nam-Joon},
+  author    = {Kim, Kyeonghun and Jeong, Yului and Han, Youngung and Kim, Youngseo and Seo, Yunjin and Park, Haram and
+               Kim, Junhan and Yoo, Minjun and Hwang, Giseong and Jun, Jinyong and Liao, Ken Ying-Kai and Kim, Nam-Joon},
   booktitle = {Proc. IEEE Int. Conf. Consumer Electronics (ICCE)},
   year      = {2027},
   note      = {under review}
