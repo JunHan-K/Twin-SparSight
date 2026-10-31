@@ -5,20 +5,20 @@ authors:
   - family-names: Kim
     given-names: Junhan
     affiliation: Kyungpook National University
+  - family-names: Jeong
+    given-names: Yului
+    affiliation: Seoul National University
   - family-names: Kim
     given-names: Kyeonghun
     affiliation: OUTTA
-  - family-names: Jeong
-    given-names: Yului
+  - family-names: Han
+    given-names: Youngung
     affiliation: Seoul National University
   - family-names: Park
     given-names: Haram
     affiliation: Seoul National University
   - family-names: Seo
     given-names: Yunjin
-    affiliation: Seoul National University
-  - family-names: Han
-    given-names: Youngung
     affiliation: Seoul National University
   - family-names: Kim
     given-names: Youngseo
@@ -47,16 +47,16 @@ preferred-citation:
   authors:
     - family-names: Kim
       given-names: Junhan
-    - family-names: Kim
-      given-names: Kyeonghun
     - family-names: Jeong
       given-names: Yului
+    - family-names: Kim
+      given-names: Kyeonghun
+    - family-names: Han
+      given-names: Youngung
     - family-names: Park
       given-names: Haram
     - family-names: Seo
       given-names: Yunjin
-    - family-names: Han
-      given-names: Youngung
     - family-names: Kim
       given-names: Youngseo
     - family-names: Yoo
